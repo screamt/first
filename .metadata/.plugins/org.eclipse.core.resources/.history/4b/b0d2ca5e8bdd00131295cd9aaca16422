@@ -1,0 +1,26 @@
+package ngpanwei.bdd.stepdefs;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class BackLogStepDefs {
+
+}
+@Given("^我建立人物\"(.*?)\"$")
+public void 我建立人物(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^我把任务\"(.*?)\"完成$")
+public void 我把任务_完成(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^我的未完成任务有\"(.*?)\"$")
+public void 我的未完成任务有(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
